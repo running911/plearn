@@ -1,0 +1,15 @@
+--- byColor.py	2016-11-23 13:29:26.000000000 +0800
++++ byColor2.py	2016-11-26 11:45:19.000000000 +0800
+@@ -4,9 +4,12 @@
+ html=urlopen("http://www.pythonscraping.com/pages/warandpeace.html")
+ bsObj=BeautifulSoup(html.read(),"lxml")
+ #nameList=bsObj.findAll("span",{"class":"green"})
++Just a test
+ #for name in nameList:
+ #	print(name.get_text())
+ 
+ print(bsObj)
+ hx=bsObj.findAll("h1")
+ print(hx)
++ 
++#That is another copy
